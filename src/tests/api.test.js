@@ -15,6 +15,6 @@ describe("Journal API Integration Tests", () => {
     const res = await request(app).get("/api/hello");
     expect(res.statusCode).toBe(200);
     expect(res.body).toHaveProperty("message");
-    expect(res.body.message).toBe("Hello hafsa!");
+    expect(res.body.message).toBe("Hello DataScince Big Data!!");
   });
 });
