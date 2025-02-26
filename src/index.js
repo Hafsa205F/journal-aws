@@ -8,7 +8,7 @@ app.use("/api", journalRoutes);
 //hello world endpoint
 app.get("/api/hello", (req, res) => {
   res.status(200).json({
-    message: "Hello DataScince Big Data!",
+    message: "Hello Data Scince Big Data!",
     timestamp: new Date().toISOString(),
     info: "This endpoint was added via CI/CD pipeline",
   });
